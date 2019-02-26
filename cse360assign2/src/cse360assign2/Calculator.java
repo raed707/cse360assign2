@@ -33,13 +33,11 @@ public class Calculator {
 	public void subtract (int value) {
 		total = total - value;
 		history = history + " - " + value;
-
 	}
 	
 	public void multiply (int value) {
 		total = total * value;
 		history = history + " * " + value;
-
 	}
 	
 	public void divide (int value) {
